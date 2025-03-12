@@ -1,0 +1,39 @@
+/* RESPONSIVIDADE */
+
+@media all and (max-width: 978px) {
+
+    .menu {
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .menu__logo {
+        display: flex;
+        width: 100%;
+        /* height: 50%; */
+    }
+
+    .img__produto {
+        width: 90vw;
+    }
+
+    .descricao__produto {
+        font-size: 2.5vh;
+        max-width: 80vw;
+        text-align: center;
+    }
+
+    .footer__redes__h2{
+        font-size: 2.3vh;
+        width: 15vh;
+    }
+
+    .footer__redes__img {
+        display: flex;
+        width: 4.5vh;
+    }
+
+    .footer__logo {
+        height: 4vh;
+    }
+    
+}

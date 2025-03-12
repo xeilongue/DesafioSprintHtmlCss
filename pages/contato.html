@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles_contato.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 
 </head>
 
 <body>
 
     <header class="menu">
-        <img src="../img/logo-ford-256.png" alt="produto">
+        <img class="menu__logo" src="../img/logo-ford-256.png" alt="produto">
         <nav class="menu__links">
             <a class="links" href="./index.html">Home</a>
             <a class="links" href="./lançamento.html">Lançamento</a>
@@ -20,33 +22,34 @@
         </nav>
     </header>
 
-    <main>
-        <div>
-            <img src="../img/xls 2.2 diesel.jpg" alt="imagem formulario" class="formimg">
+    <main class="container__contato">
 
-            <form class="form__container" action="./index.html" method="get">
-                <h2>Entre em contato conosco</h2>
-
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="contato">Tipo de Contato</label>
-                <select id="contato" name="contato">
-                    <option value="elogio">Elogio</option>
-                    <option value="reclamacao">Reclamação</option>
-                    <option value="solicitacao">Solicitação</option>
-                </select>
-
-                <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-
-                <button type="submit" class="botao__comparar" id="botao" name="botao">Enviar</button>
-            </form>
-
+        <div class="container__imagem">
+            <img class="imagem__carro__contato" src="../img/xls 2.2 diesel.jpg" alt="imagem formulario" class="formimg">
         </div>
+
+        <form class="form__container" action="./index.html" method="get">
+            <h1>Sobre Você</h1>
+
+            <input type="text" id="nome" name="nome" placeholder="NOME*" required>
+            <input type="email" id="email" name="email" placeholder="E-MAIL*" required>
+            <!-- <input type="number" id="cpf" name="cpf" placeholder="CPF" required> -->
+            <!-- <input type="text" id="sobrenome" name="sobrenome" placeholder="SOBRENOME*" required> -->
+            <input type="number" id="telefone" name="telefone" placeholder="TELEFONE*" required>
+
+            <label for="contato">Tipo de Contato</label>
+            <select id="contato" name="contato">
+                <option value="elogio">Elogio</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="solicitacao">Solicitação</option>
+            </select>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <button type="submit" class="botao__enviar" id="botao" name="botao">Enviar</button>
+        </form>
+
     </main>
 
     <footer class="footer">
@@ -60,7 +63,7 @@
             <img src="../img/ford-96.png">
         </div>
     </footer>
-    
+
 </body>
 
 </html>

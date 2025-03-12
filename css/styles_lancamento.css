@@ -1,0 +1,77 @@
+/* PÁGINA DE LANÇAMENTO */
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.container__lancamento {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 45px;
+    padding: 10px;
+}
+
+.videozinho{
+    width: 98vw;
+    height: 40vh;
+}
+
+.lancamento {
+    display: flex;
+    flex-direction: row;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+td {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.td__conteudo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.imagem__carro {
+    width: 70%;
+    /* height: 156.391px;
+    width: 283.891px; */
+}
+
+.checkbox__comparar {
+    height: 50px;
+    width: 50px;
+}
+
+.nome__produto {
+    font-family: "Open Sans", serif;
+    font-weight: 500;
+    color: #1351d8;
+}
+
+.botao__info {
+    cursor: pointer;
+}
+
+.botao__comparar {
+    background-color: #1351d8;
+    color: white;
+    padding: 17px 75px;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+}
+
+.botao__comparar:hover {
+    scale: 1.004;
+    cursor: pointer;
+}

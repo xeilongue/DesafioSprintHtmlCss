@@ -14,16 +14,13 @@ body {
 
 .menu {
     display: grid;
-    grid-template-columns: 300px 1fr 300px;
+    grid-template-columns: 1fr 5fr 1fr;
+    max-height: 10vh;
     flex-direction: row;
     align-items: center;
-    border-bottom: solid #cccccc;
+    border-bottom: solid 1.5px #cccccc;
     padding: 5px;
 }
-
-/* .menu__logo {
-    width: 20vh;
-} */
 
 .menu__links {
     display: flex;
@@ -44,32 +41,15 @@ body {
     scale: 1.05;
 }
 
-.container {
-    flex: 1;
-    /* Faz o main ocupar todo o espaço restante */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.img__produto {
-    max-width: 100%;
-    height: auto;
-}
-
-.descricao__produto {
-    font-family: "Open Sans", serif;
-    font-weight: 500;
-}
-
 .footer {
     display: flex;
     margin-top: auto;
     width: 100vw;
+    height: 4.8vh;
     bottom: 0%;
     background-color: #1b357e;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row;
     padding: 0.7% 0%;
 }
@@ -86,128 +66,8 @@ body {
 }
 
 .footer__redes__h2 {
-    font-size: 22px;
+    font-size: 2.4vh;
     color: white;
     font-family: "Open Sans", serif;
     font-weight: 400;
-}
-
-/* PÁGINA DE LANÇAMENTO */
-
-.container__lancamento {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 45px;
-    padding: 10px;
-}
-
-.videozinho{
-    width: 98vw;
-    height: 40vh;
-}
-
-.lancamento {
-    display: flex;
-    flex-direction: row;
-}
-
-tr {
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-}
-
-td {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-.td__conteudo {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-/* .td__conteudo>p {
-     width: 65%; 
-} */
-
-.imagem__carro {
-    width: 70%;
-    /* height: 156.391px;
-    width: 283.891px; */
-}
-
-.checkbox__comparar {
-    height: 50px;
-    width: 50px;
-}
-
-.nome__produto {
-    font-family: "Open Sans", serif;
-    font-weight: 500;
-    color: #1351d8;
-}
-
-.botao__info {
-    cursor: pointer;
-}
-
-.botao__comparar {
-    background-color: #1351d8;
-    color: white;
-    padding: 17px 75px;
-    border-radius: 15px;
-    text-decoration: none;
-    text-align: center;
-    border: none;
-}
-
-.botao__comparar:hover {
-    scale: 1.004;
-    cursor: pointer;
-}
-
-/* PÁGINA DE CONTATO */
-
-.form__container {
-    display: flex;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    width: 600px;
-    gap: 20px;
-    justify-content: center;
-}
-
-.form__img{
-    width: 200px;
-    height: 200px;
-}
-
-form {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-form h2 {
-    margin-bottom: 5px;
-}
-
-label {
-    font-weight: bold;
-    margin-top: 5px;
-}
-
-input, select, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-top: 2px;
-    border: 1px solid #ccc;
-    border-radius: 4px
 }

@@ -1,0 +1,86 @@
+/* PÁGINA DE CONTATO */
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.container__contato {
+    flex: 1;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.container__imagem {
+    margin-top: 2%;
+    margin-right: 7%;
+}
+
+.imagem__carro__contato {
+    width: 130%;
+    height: 130%;
+}
+
+.form__container {
+    display: flex;
+    padding: 20px;
+    width: 400px;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    border-radius: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+form textarea {
+    border-radius: 10px;
+}
+
+form select {
+    border-radius: 10px;
+}
+
+form h1 {
+    margin-bottom: 5px;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 1.5%;
+    margin-top: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px
+}
+
+.botao__enviar {
+    background-color: #1351d8;
+    color: white;
+    padding: 17px 75px;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+}
+
+.botao__enviar:hover {
+    scale: 1.004;
+    cursor: pointer;
+}
