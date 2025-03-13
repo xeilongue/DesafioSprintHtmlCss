@@ -17,6 +17,13 @@
 
 .descricao__produto {
     font-family: "Roboto Condensed", sans-serif;
+    font-weight: 350;
+    font-size: 1.7vh;
+    margin-bottom: 5px;
+}
+
+.redirecionamento__produto {
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 450;
     font-size: 2vh;
 }
