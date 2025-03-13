@@ -14,7 +14,7 @@ body {
 .menu {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
-    max-height: 10vh;
+    max-height: 9.8vh;
     flex-direction: row;
     align-items: center;
     border-bottom: solid 1.5px #cccccc;

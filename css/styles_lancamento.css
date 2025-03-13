@@ -15,6 +15,7 @@
 .videozinho{
     width: 98vw;
     height: 40vh;
+    border-radius: 5px;
 }
 
 tr {
@@ -62,6 +63,10 @@ td {
     cursor: pointer;
 }
 
+.botao__info:hover {
+    scale: 1.05;
+}
+
 .botao__comparar {
     background-color: #1351d8;
     color: white;
@@ -74,6 +79,6 @@ td {
 }
 
 .botao__comparar:hover {
-    scale: 1.004;
+    scale: 1.01;
     cursor: pointer;
 }

@@ -13,6 +13,11 @@
 .img__produto {
     max-width: 100%;
     height: auto;
+    border-radius: 5px;
+}
+
+.img__produto:hover {
+    scale: 1.001;
 }
 
 .descricao__produto {
