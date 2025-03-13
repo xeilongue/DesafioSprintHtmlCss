@@ -2,6 +2,8 @@
 
 @media all and (max-width: 978px) {
 
+    /* MENU E FOOTER */
+
     .menu {
         grid-template-columns: 1fr 3fr;
     }
@@ -9,20 +11,13 @@
     .menu__logo {
         display: flex;
         width: 100%;
-        /* height: 50%; */
     }
 
-    .img__produto {
-        width: 90vw;
+    .links {
+        font-size: 14px;
     }
 
-    .descricao__produto {
-        font-size: 2.5vh;
-        max-width: 80vw;
-        text-align: center;
-    }
-
-    .footer__redes__h2{
+    .footer__redes__h2 {
         font-size: 2.3vh;
         width: 15vh;
     }
@@ -35,5 +30,55 @@
     .footer__logo {
         height: 4vh;
     }
+
+    /* INDEX */
+
+    .img__produto {
+        width: 90vw;
+    }
+
+    .descricao__produto {
+        font-size: 2.5vh;
+        max-width: 80vw;
+        text-align: center;
+    }
+
+    /* LANÇAMENTO */
+
+    .videozinho{
+        width: 85vw;
+        height: 30vh;
+        border-radius: 10px;
+    }
+
+    tr {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+
+    td {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    /* CONTATO */
+
+    .container__contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container__imagem {
+        display: flex;
+        margin-top: 1.5vh;
+    }
     
+    .imagem__carro__contato {
+        width: 80%;
+    }
+
 }

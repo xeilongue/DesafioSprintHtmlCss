@@ -1,6 +1,6 @@
 /* PÁGINA DE CONTATO */
 
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 .container__contato {
     flex: 1;
@@ -18,22 +18,32 @@
 }
 
 .imagem__carro__contato {
-    width: 130%;
-    height: 130%;
+    width: 22vw;
+    height: 25vh;
 }
 
 .form__container {
     display: flex;
     padding: 20px;
-    width: 400px;
+    width: 40vh;
     gap: 20px;
     justify-content: center;
     align-items: flex-start;
 }
 
+.form__container>h1 {
+    font-family: "Open Sans", serif;
+    font-size: 2.8vh;
+}
+
 form {
     display: flex;
     flex-direction: column;
+}
+
+label {
+    font-family: "Open Sans", serif;
+    font-size: 2.8vh;
 }
 
 form input {
@@ -76,11 +86,12 @@ input, select, textarea {
     padding: 17px 75px;
     border-radius: 15px;
     text-decoration: none;
+    font-family: "Open Sans", serif;
     text-align: center;
     border: none;
 }
 
 .botao__enviar:hover {
-    scale: 1.004;
+    scale: 1.010;
     cursor: pointer;
 }
